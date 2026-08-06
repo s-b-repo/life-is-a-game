@@ -1,11 +1,16 @@
 fileFormatVersion: 2
-guid: ebf6f5b879105ba4a873a125007073e6
+# GUID chosen to match the pre-Phase-1 SPAWNRANDOM.cs.meta, because
+# gameplay prefabs already reference that GUID. Consolidating the two
+# spawn scripts into this one file means prefabs keep resolving without
+# a per-prefab edit. The former `random spawn.cs` GUID
+# (ebf6f5b879105ba4a873a125007073e6) is retired — no prefab used it.
+guid: c01110a8493c0d14fbf81fa99dcd8cbd
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
   defaultReferences: []
   executionOrder: 0
   icon: {instanceID: 0}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
+  userData:
+  assetBundleName:
+  assetBundleVariant:

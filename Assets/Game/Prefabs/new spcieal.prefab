@@ -12,10 +12,7 @@ GameObject:
   - component: {fileID: 151871465375209705}
   - component: {fileID: 151871465375209706}
   - component: {fileID: 151871465375209707}
-  - component: {fileID: 151871465375209700}
-  - component: {fileID: 151871465375209701}
   - component: {fileID: 151871465375209702}
-  - component: {fileID: 151871465375209703}
   - component: {fileID: 151871465375209696}
   m_Layer: 0
   m_Name: new spcieal
@@ -100,31 +97,6 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &151871465375209700
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 151871465375209697}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 39e1f7431eecb2947959b4bf9b8eb8e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &151871465375209701
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 151871465375209697}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8664a9aced9ff14293242c25b1f23ef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 0
 --- !u!54 &151871465375209702
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -141,21 +113,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &151871465375209703
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 151871465375209697}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
-  m_EffectDistance: {x: 1, y: -1}
-  m_UseGraphicAlpha: 1
 --- !u!108 &151871465375209696
 Light:
   m_ObjectHideFlags: 0
