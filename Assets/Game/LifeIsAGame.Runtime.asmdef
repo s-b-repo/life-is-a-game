@@ -1,7 +1,13 @@
 {
     "name": "LifeIsAGame.Runtime",
     "rootNamespace": "LifeIsAGame",
-    "references": [],
+    "references": [
+        "Mirror",
+        "Mirror.Components",
+        "Mirror.Transports.KCP",
+        "Unity.TextMeshPro",
+        "Unity.InputSystem"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,

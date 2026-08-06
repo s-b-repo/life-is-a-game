@@ -1,0 +1,21 @@
+{
+    "name": "LifeIsAGame.Editor",
+    "rootNamespace": "LifeIsAGame.EditorTools",
+    "references": [
+        "LifeIsAGame.Runtime",
+        "Mirror",
+        "Mirror.Components",
+        "Mirror.Transports.KCP"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
