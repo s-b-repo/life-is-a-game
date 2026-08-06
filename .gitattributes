@@ -1,2 +1,64 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Global text-normalization default: let git detect,
+# but Unity YAML files must stay LF (see below).
+* text=auto eol=lf
+
+# Unity YAML assets — force LF, never CRLF (case-sensitive editor tools mangle otherwise)
+*.meta                  merge=unityyamlmerge  eol=lf
+*.unity                 merge=unityyamlmerge  eol=lf
+*.prefab                merge=unityyamlmerge  eol=lf
+*.asset                 merge=unityyamlmerge  eol=lf
+*.mat                   merge=unityyamlmerge  eol=lf
+*.anim                  merge=unityyamlmerge  eol=lf
+*.controller            merge=unityyamlmerge  eol=lf
+*.overrideController    merge=unityyamlmerge  eol=lf
+*.physicMaterial        merge=unityyamlmerge  eol=lf
+*.physicsMaterial2D     merge=unityyamlmerge  eol=lf
+*.lighting              merge=unityyamlmerge  eol=lf
+*.mask                  merge=unityyamlmerge  eol=lf
+*.playable              merge=unityyamlmerge  eol=lf
+*.terrainlayer          merge=unityyamlmerge  eol=lf
+*.mixer                 merge=unityyamlmerge  eol=lf
+*.brush                 merge=unityyamlmerge  eol=lf
+*.spriteatlas           merge=unityyamlmerge  eol=lf
+*.giparams              merge=unityyamlmerge  eol=lf
+
+# 3D formats — binary
+*.FBX filter=lfs diff=lfs merge=lfs -text
+*.fbx filter=lfs diff=lfs merge=lfs -text
+*.obj filter=lfs diff=lfs merge=lfs -text
+*.blend filter=lfs diff=lfs merge=lfs -text
+
+# Image formats — binary (many textures are large, but keep out of LFS unless user opts in)
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.gif    binary
+*.psd    binary
+*.tif    binary
+*.tiff   binary
+*.tga    binary
+*.bmp    binary
+*.webp   binary
+*.exr    binary
+*.hdr    binary
+
+# Audio
+*.wav    binary
+*.mp3    binary
+*.ogg    binary
+*.aif    binary
+*.aiff   binary
+*.flac   binary
+
+# Video
+*.mov    binary
+*.mp4    binary
+*.avi    binary
+*.webm   binary
+
+# Compiled artifacts
+*.dll    binary
+*.pdb    binary
+*.a      binary
+*.so     binary
+*.dylib  binary
