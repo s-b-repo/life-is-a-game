@@ -5,7 +5,8 @@
         "LifeIsAGame.Runtime",
         "Mirror",
         "Mirror.Components",
-        "Mirror.Transports.KCP"
+        "Mirror.Transports.KCP",
+        "Unity.TextMeshPro"
     ],
     "includePlatforms": [
         "Editor"
