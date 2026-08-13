@@ -1,0 +1,21 @@
+# Unity ignores. Auto-generated files (.csproj/.sln) were committed
+# by the original repo; leaving them in tree per the current refresh
+# policy of not deleting, but new checkouts should ignore them.
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+sysinfo.txt
+*.apk
+*.aab
+*.unitypackage
+crashlytics-build.properties
+.vs/
+.idea/
